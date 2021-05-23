@@ -1,0 +1,56 @@
+<resources>
+    <!-- Application -->
+    <string name="app_name">Elite Weather</string>
+    <string name="app_creator">Creator: Johannes Seldevall</string>
+    <string name="app_version">Version: 2021-02-25</string>
+
+    <!-- Navigation -->
+    <string name="nav_support">Other</string>
+    <string name="nav_open_drawer">Open navigation drawer</string>
+    <string name="nav_close_drawer">Close navigation drawer</string>
+    <!-- Navigation items -->
+    <string name="nav_forecast">Forecast</string>
+    <string name="nav_map">Map</string>
+    <string name="nav_logs">Logs</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about">About us</string>
+    <string name="nav_exit">Exit</string>
+
+    <!-- Settings -->
+    <string name="clear_logs">Clear Logs</string>
+    <string name="delete_settings">Factory Settings</string>
+    <string name="settings_updated">Settings updated!</string>
+
+    <string name="map_theme_hint">Which map should be used?</string>
+    <string-array name="map_themes">
+        <item>Normal</item>
+        <item>Satellite</item>
+        <item>Terrain</item>
+        <item>Hybrid</item>
+    </string-array>
+
+    <string name="color_theme_hint">Select color theme (applies on restart)</string>
+    <string-array name="color_themes">
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Black</item>
+    </string-array>
+
+    <!-- About us -->
+    <string name="about_us">
+     Lab 6 - Elite Weather
+     \nApplikationen är en simpel väderapp som hämtar data från SMHI.se.
+     Användaren navigerar i appen genom en så kallad DrawerLayout, när användaren trycker på en sak i menyn skapas ett fragment och presenteras inför användaren.
+     I "Maps" går det att ändra position för vart vädret ska hämtas genom att användaren trycker på kartan.
+     Sedan kan användaren ändra tema, map-typ, rensa logs och inställningar i "Settings".
+     \n
+     \nInställningarna och positionen lagras i SharedPreferences
+     När användaren ändrar inställningarna och positionen lagras detta i SQLdatabasen "LOGS" som lagrar loggar.
+     \n
+     \n@author Johannes Seldevall
+     \n@version 2021-02-26
+    </string>
+
+
+</resources>
